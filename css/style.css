@@ -5,7 +5,38 @@
 }
 
 body {
-    background-color: rosybrown;
+    background-color: #F1BBD8;
 }
 
-.header {}
+.header {
+    padding: 20px;
+    font-family: cursive;
+    background-color: #E0A4CE;
+    color:#F1BBD8
+}
+
+.navbar {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+.navbar-ul {
+    list-style-type: none;
+}
+
+.navbar-li {
+    display: inline-block
+    margin-left: 25;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./assets/images/P1113876.jpg");
+    background-size: cover;
+    background-position: center;
+}
