@@ -5,26 +5,31 @@
 }
 
 body {
-    background-color: #F1BBD8;
+    background-color: #F5E0EF;
 }
 
 .header {
     padding: 20px;
     font-family: cursive;
     background-color: #E0A4CE;
-    color:#F1BBD8
+    color:floralwhite;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
 }
 
 .navbar {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: fantasy;
     font-size: 30px;
 }
 
 .navbar-ul {
-    list-style-type: none;
+    list-style-type: ;
 }
 
 .navbar-li {
@@ -32,11 +37,3 @@ body {
     margin-left: 25;
 }
 
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("./assets/images/P1113876.jpg");
-    background-size: cover;
-    background-position: center;
-}
