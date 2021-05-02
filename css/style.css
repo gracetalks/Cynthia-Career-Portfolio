@@ -4,18 +4,6 @@
     margin: 0;
 }
 
-body, html {
-    height: 100%;
-}
-
-.hero-image {
-    background-image: url("../assets/images/shutterstock_1187721502.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
 
 body {
     background-color: #FDC4C6;
@@ -38,11 +26,13 @@ body {
     font-size: 48px;
 }
 
+
+
 .navbar {
     padding-top: 15px;
     margin-right: 20px;
     font-family: cursive;
-    font-size: 30px;
+    
     display: flex;
 }
 
@@ -57,10 +47,15 @@ body {
 .navbar-li {
     display: flex;
     margin-left: 25px;
+    font-size: 30px;
+}
+
+.navbar-li a {
+    color:floralwhite;
+
 }
 
 a {
-    color:floralwhite;
     text-decoration: none;
 }
 
@@ -68,39 +63,53 @@ p {
     font-size: 16px;
 }
 
+.h1 {
+    padding-top: 20px;
+}
+
+.sample-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .content {
      width: 75%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* margin-left: 20px; */
+}
+
+
+.main-p {
+    padding: 30px;
+    margin-top: 23px;
+    width: 50%;
+}
+
+.h2 {
+    color: #000;
 }
 
 .content img {
-    /* display: block;
-    margin: 20px auto;*/
     max-width:200px; 
 }
 
 .article-content {
-    /* margin-inline: 20px;
-    padding: 20px;
-    float: both;
-    width: 50%;
-    height: 30%; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #F69399;
 }
 
-.float-right{
-    width: 100px;
-    height: 100px;
+.img-size{
+    width: 200px;
+    height:  200px;
 }
 
-.float-center {
-    float: center;
-    margin-inline: 25px;
+.float-right{
+    width: 100%;
 }
+
 
 .footer {
     padding: 30px;
