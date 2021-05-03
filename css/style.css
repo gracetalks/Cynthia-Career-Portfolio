@@ -100,6 +100,7 @@ p {
 .article-content {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #F69399;
+    color: black;
 }
 
 .img-size{
@@ -111,6 +112,17 @@ p {
     width: 100%;
 }
 
+.contact-h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-me {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
 .footer {
     padding: 30px;
     clear: both;

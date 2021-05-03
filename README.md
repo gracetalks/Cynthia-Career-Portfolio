@@ -7,7 +7,7 @@ Below are the images of my deployed portfolio:
 <img src="./assets/images/img1.png" alt="Image of My Portfolio">
 <img src="./assets/images/img2.png" alt="Image of My Portfolio">
 <img src="./assets/images/img3.png" alt="Image of My Portfolio">
-<img src="./assets/images/img4.png" alt="Image of My Portfolio">
+<img src="./assets/images/img5.png" alt="Image of My Portfolio">
 
 Here is the URL to access the website directly:
 <a href="hhttps://gracetalks.github.io/Cynthia-Career-Portfolio/">Visit My Portfolio!</a>
