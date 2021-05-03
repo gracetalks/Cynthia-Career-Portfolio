@@ -60,11 +60,12 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 23px;
 }
 
 .h1 {
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .sample-img {
@@ -83,9 +84,9 @@ p {
 
 
 .main-p {
-    padding: 30px;
-    margin-top: 23px;
-    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    width: 55%;
 }
 
 .h2 {
@@ -106,10 +107,9 @@ p {
     height:  200px;
 }
 
-.float-right{
+.large-photo{
     width: 100%;
 }
-
 
 .footer {
     padding: 30px;
